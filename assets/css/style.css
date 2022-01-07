@@ -1,11 +1,14 @@
 :root {
-    --primary: #DF2E2E;
-    --secondary: #297F87;
-    --third: #F6D167;
-    --accent: #FFF7AE;
-    --text: black;
-};
+  --colorOne: #df2e2e;
+  --colorTwo: #297f87;
+  --colorThree: #f6d167;
+  --accentColor: #fff7ae;
+  --textColor: black;
+}
 
+nav {
+  background-color: var(--colorThree);
+}
 body {
-    color: var(--secondary);
+  background-color: grey;
 }
